@@ -7,6 +7,7 @@ from django.utils.http import urlsafe_base64_decode
 from django.contrib.auth.tokens import default_token_generator
 from .models import User, UserProfile
 from .forms import UserForm
+from vendor.models import Vendor
 from vendor.forms import VendorForm
 from .utils import detect_user, send_verification_email
 
